@@ -26,7 +26,7 @@ Lösche den Foreign Key Constraint `FK_DEPTNO`. Dieser ist für die Spalte `DEPT
 
 ### Lösung
 ```sql
-Deine Lösung
+ALTER Table EMP DROP Constraint FK_DEPTNO;
 ```
 
 ## Aufgabe 4
