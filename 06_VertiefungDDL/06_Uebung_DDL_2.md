@@ -7,10 +7,14 @@ Lege für die Tabellen `VERTRETER`, `VERKAUF` und `ARTIKEL` Primary Key Constrai
 
 ### Lösung
 ```sql
-Create Table ARTIKEL
-(
-	anr NUMBER (4,0) Constraint pkvnr Primary Key
-);	
+ALTER TABLE Vertreter
+ADD Constraint pkvert Primary Key (vnr);
+
+ALTER TABLE Verkauf
+ADD Constraint pkverk Primary Key (unr);
+
+ALTER TABLE Artikle
+ADD Constraint pkart Primary Key (anr);
 ```
 
 ## Aufgabe 2
@@ -34,6 +38,6 @@ Lege den benötigten Foreign Key Constraint (`FK`) für die Tabelle `EMP` neu an
 
 ### Lösung
 ```sql
-Deine Lösung
+
 ```
 
