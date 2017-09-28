@@ -7,7 +7,10 @@ Lege für die Tabellen `VERTRETER`, `VERKAUF` und `ARTIKEL` Primary Key Constrai
 
 ### Lösung
 ```sql
-Deine Lösung
+Create Table ARTIKEL
+(
+	anr NUMBER (4,0) Constraint pkvnr Primary Key
+);	
 ```
 
 ## Aufgabe 2
