@@ -7,7 +7,7 @@ Erzeuge eine Ausgabe, in der jeder Vertreter (`VNR` und `VNAME`) mit all seinen 
 
 ### Lösung
 ```sql
-Deine Lösung
+Select VNAME From Vertreter;
 ```
 
 ## Aufgabe 2
